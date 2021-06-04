@@ -18,11 +18,8 @@ jobs:
         with:
           java-version: 11
 
-      - name: Build
-        run: ./gradlew assembleRelease
-
-      - name: publish
-        run: ./gradlew publishReleasePublicationToMaven
+      - name: Build and publish
+        run: ./gradlew MszProgressIndicator:assembleRelease publishReleasePublicationToMaven
         env:
           OSSRH_USERNAME: ${{ secrets.OSSRH_USERNAME }}
           OSSRH_PASSWORD: ${{ secrets.OSSRH_PASSWORD }}
