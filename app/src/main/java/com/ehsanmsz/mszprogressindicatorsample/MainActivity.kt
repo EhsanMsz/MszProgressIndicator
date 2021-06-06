@@ -75,7 +75,7 @@ fun Main() {
                 BallScaleRippleProgressIndicator()
                 BallScaleRippleMultipleProgressIndicator()
                 BallSpinFadeLoaderProgressIndicator()
-                LineSpinFadeLoader()
+                LineSpinFadeLoaderProgressIndicator()
             }
             //Row 7
             BaseRow {
