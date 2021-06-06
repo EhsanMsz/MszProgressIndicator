@@ -10,7 +10,7 @@
 ## Demo
 
 <div align="center">
-    <img src="screenshot/progress_indicator.gif" width="190">
+    <img src="screenshot/progress_indicator.gif">
 </div>
 
 ## Download
