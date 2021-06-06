@@ -48,7 +48,7 @@ private const val DefaultMaxAlpha = 1f
 private const val DefaultMinAlpha = .4f
 
 @Composable
-fun LineSpinFadeLoader(
+fun LineSpinFadeLoaderProgressIndicator(
     modifier: Modifier = Modifier,
     color: Color = MaterialTheme.colors.primary,
     animationDuration: Int = DefaultAnimationDuration,
