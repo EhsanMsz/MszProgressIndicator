@@ -57,7 +57,7 @@ fun BallBeatProgressIndicator(
 
     val fraction by transition.fraction2StepReversed(animationDuration)
 
-    val maxWidth = (maxBallDiameter * ballCount) + (spacing * (ballCount - 1))
+    val maxWidth = maxBallDiameter * ballCount + spacing * (ballCount - 1)
 
     ProgressIndicator(modifier, maxWidth, maxBallDiameter) {
         val diameter = listOf(
@@ -92,7 +92,7 @@ private fun DrawScope.drawIndeterminateBallBeatIndicator(
     val offset = maxDiameter + spacing
 
     for (i in 0 until ballCount) {
-        val x = (maxDiameter / 2) + (offset * i)
+        val x = maxDiameter / 2 + offset * i
         drawCircle(
             color = color,
             radius = diameter[i % 2] / 2,

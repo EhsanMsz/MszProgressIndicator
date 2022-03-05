@@ -96,10 +96,10 @@ private fun DrawScope.drawIndeterminateBallRotateIndicator(
     ) {
         val radius = diameter / 2
         val offset = diameter + spacing
-        val minWidthOffset = (size.width / 2) - (((offset * ballCount) - spacing) / 2)
+        val minWidthOffset = (size.width - (offset * ballCount - spacing)) / 2
 
         for (i in 0 until ballCount) {
-            val x = radius + (offset * i) + minWidthOffset
+            val x = radius + offset * i + minWidthOffset
             drawCircle(
                 color = color,
                 radius = radius,
