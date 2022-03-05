@@ -3,6 +3,7 @@
 [![license-badge]][license]
 [![issues-badge]][issues]
 ![compose-badge]
+[![code-factor-badge]][code-factor]
 [![publish-badge]][publish]
 
 
@@ -19,7 +20,7 @@
 Gradle:
 ```kotlin
 dependencies {
-    implementation("com.ehsanmsz:msz-progress-indicator:0.1.2")
+    implementation("com.ehsanmsz:msz-progress-indicator:0.2.0")
 }
 ```
 
@@ -28,7 +29,7 @@ Maven:
 <dependency>
   <groupId>com.ehsanmsz</groupId>
   <artifactId>msz-progress-indicator</artifactId>
-  <version>0.1.2</version>
+  <version>0.2.0</version>
   <type>aar</type>
 </dependency>
 ```
@@ -108,14 +109,18 @@ limitations under the License.
 
 [compose-badge]: https://img.shields.io/badge/Compose-1.0.0--beta09-blue
 
+[code-factor-badge]: https://img.shields.io/codefactor/grade/github/ehsanmsz/mszprogressindicator
+
 [publish-badge]: https://img.shields.io/github/workflow/status/ehsanmsz/mszprogressindicator/Publish
 
 
-[maven-central]: https://search.maven.org/artifact/com.ehsanmsz/msz-progress-indicator/0.1.2/aar
+[maven-central]: https://search.maven.org/artifact/com.ehsanmsz/msz-progress-indicator/0.2.0/aar
 
 [license]: https://github.com/EhsanMsz/MszProgressIndicator/blob/master/LICENSE
 
 [issues]: https://github.com/EhsanMsz/MszProgressIndicator/issues
+
+[code-factor]: https://www.codefactor.io/repository/github/ehsanmsz/mszprogressindicator
 
 [publish]: https://github.com/EhsanMsz/MszProgressIndicator/actions/workflows/publish.yaml
 

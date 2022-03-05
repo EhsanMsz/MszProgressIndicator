@@ -62,7 +62,7 @@ dependencies {
  * Publish
  * */
 val publishGroupId = "com.ehsanmsz"
-val publishVersion = "0.1.2"
+val publishVersion = "0.2.0"
 val publishArtifactId = "msz-progress-indicator"
 
 val sourceJar by tasks.creating(Jar::class) {
