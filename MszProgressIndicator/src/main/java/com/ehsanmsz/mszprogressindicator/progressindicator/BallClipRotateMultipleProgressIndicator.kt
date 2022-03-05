@@ -80,7 +80,7 @@ fun BallClipRotateMultipleProgressIndicator(
     val maxDiameter = maxBallDiameter + maxGap + strokeWidth
 
     ProgressIndicator(modifier, maxDiameter) {
-        drawIndeterminateBallClipRotatePulseIndicator(
+        drawIndeterminateBallClipRotateMultipleIndicator(
             diameter = lerp(minBallDiameter, maxBallDiameter, diameter).toPx(),
             gap = lerp(minGap, maxGap, diameter).toPx(),
             startAngle = startAngle * 360f,
@@ -90,7 +90,7 @@ fun BallClipRotateMultipleProgressIndicator(
     }
 }
 
-private fun DrawScope.drawIndeterminateBallClipRotatePulseIndicator(
+private fun DrawScope.drawIndeterminateBallClipRotateMultipleIndicator(
     diameter: Float,
     gap: Float,
     startAngle: Float,

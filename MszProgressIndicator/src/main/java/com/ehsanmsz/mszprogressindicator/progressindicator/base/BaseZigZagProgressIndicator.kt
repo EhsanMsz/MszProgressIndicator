@@ -97,7 +97,7 @@ internal fun BaseZigZagProgressIndicator(
     )
 
     ProgressIndicator(modifier, width, height) {
-        drawIndeterminateBallTrianglePathIndicator(
+        drawIndeterminateZigZagIndicator(
             diameter = ballDiameter.toPx(),
             offset = listOf(offset01, offset02),
             color = color
@@ -105,7 +105,7 @@ internal fun BaseZigZagProgressIndicator(
     }
 }
 
-private fun DrawScope.drawIndeterminateBallTrianglePathIndicator(
+private fun DrawScope.drawIndeterminateZigZagIndicator(
     diameter: Float,
     offset: List<Offset>,
     color: Color
