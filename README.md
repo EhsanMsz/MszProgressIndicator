@@ -7,7 +7,9 @@
 [![publish-badge]][publish]
 
 
-### A collection of progress indicators for Android Jetpack Compose, inspired by [loaders.css][1]
+### A collection of progress indicators for Android Jetpack Compose, inspired by [loaders.css][1].
+
+[document][document]
 
 ## Demo
 
@@ -107,7 +109,7 @@ limitations under the License.
 
 [issues-badge]: https://img.shields.io/github/issues/ehsanmsz/mszprogressindicator?color=blue
 
-[compose-badge]: https://img.shields.io/badge/Compose-1.0.0--beta09-blue
+[compose-badge]: https://img.shields.io/badge/Compose-1.1.1-blue
 
 [code-factor-badge]: https://img.shields.io/codefactor/grade/github/ehsanmsz/mszprogressindicator
 
@@ -123,6 +125,8 @@ limitations under the License.
 [code-factor]: https://www.codefactor.io/repository/github/ehsanmsz/mszprogressindicator
 
 [publish]: https://github.com/EhsanMsz/MszProgressIndicator/actions/workflows/publish.yaml
+
+[document]: https://ehsanmsz.com/open-source/msz-progress-indicator
 
 
 [1]: https://github.com/ConnorAtherton/loaders.css
