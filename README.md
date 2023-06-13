@@ -113,7 +113,7 @@ limitations under the License.
 
 [code-factor-badge]: https://img.shields.io/codefactor/grade/github/ehsanmsz/mszprogressindicator
 
-[publish-badge]: https://img.shields.io/github/workflow/status/ehsanmsz/mszprogressindicator/Publish
+[publish-badge]: https://img.shields.io/github/workflow/status/ehsanmsz/mszprogressindicator/publish.yaml
 
 
 [maven-central]: https://search.maven.org/artifact/com.ehsanmsz/msz-progress-indicator/0.2.0/aar
