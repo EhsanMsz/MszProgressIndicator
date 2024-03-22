@@ -14,8 +14,9 @@ android {
     buildToolsVersion = "31.0.0"
 
     defaultConfig {
+        namespace = "com.ehsanmsz.mszprogressindicator"
         minSdk = 21
-        targetSdk = 30
+        targetSdk = 34
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")

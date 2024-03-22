@@ -8,9 +8,10 @@ android {
     buildToolsVersion = "31.0.0"
 
     defaultConfig {
+        namespace = "com.ehsanmsz.mszprogressindicatorsample"
         applicationId = "com.ehsanmsz.mszprogressindicatorsample"
         minSdk = 21
-        targetSdk = 30
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
