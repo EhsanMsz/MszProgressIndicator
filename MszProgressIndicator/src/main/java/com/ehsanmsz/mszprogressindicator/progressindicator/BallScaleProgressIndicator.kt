@@ -16,7 +16,7 @@
 
 package com.ehsanmsz.mszprogressindicator.progressindicator
 
-import androidx.compose.material.MaterialTheme
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -31,7 +31,7 @@ private val DefaultDiameter = 40.dp
 @Composable
 fun BallScaleProgressIndicator(
     modifier: Modifier = Modifier,
-    color: Color = MaterialTheme.colors.primary,
+    color: Color = MaterialTheme.colorScheme.primary,
     animationDuration: Int = DefaultAnimationDuration,
     diameter: Dp = DefaultDiameter,
     startDelay: Int = DefaultStartDelay

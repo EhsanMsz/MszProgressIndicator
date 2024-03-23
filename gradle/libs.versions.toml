@@ -1,0 +1,26 @@
+[versions]
+agp = "8.2.2"
+kotlin = "1.9.23"
+coreKtx = "1.12.0"
+appcompat = "1.6.1"
+activity = "1.8.2"
+composeBom = "2024.03.00"
+composeCompiler = "1.5.11"
+
+[libraries]
+android-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activity" }
+android-activity = { group = "androidx.activity", name = "activity-ktx", version.ref = "activity" }
+android-corektx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+android-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+
+compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+compose-runtime = { group = "androidx.compose.runtime", name = "runtime" }
+compose-ui = { group = "androidx.compose.ui", name = "ui" }
+compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+compose-material3 = { group = "androidx.compose.material3", name = "material3" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+androidLibrary = { id = "com.android.library", version.ref = "agp" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }

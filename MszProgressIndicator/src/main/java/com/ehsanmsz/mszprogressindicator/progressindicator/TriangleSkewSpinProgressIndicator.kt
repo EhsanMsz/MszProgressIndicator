@@ -16,7 +16,7 @@
 
 package com.ehsanmsz.mszprogressindicator.progressindicator
 
-import androidx.compose.material.MaterialTheme
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Size
@@ -36,7 +36,7 @@ private val DefaultHeight = 20.dp
 @Composable
 fun TriangleSkewSpinProgressIndicator(
     modifier: Modifier = Modifier,
-    color: Color = MaterialTheme.colors.primary,
+    color: Color = MaterialTheme.colorScheme.primary,
     animationDuration: Int = DefaultAnimationDuration,
     animationDelay: Int = DefaultAnimationDelay,
     width: Dp = DefaultWidth,
