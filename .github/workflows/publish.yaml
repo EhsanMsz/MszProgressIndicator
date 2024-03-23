@@ -16,7 +16,7 @@ jobs:
       - name: Configure JDK
         uses: actions/setup-java@v1
         with:
-          java-version: 11
+          java-version: 17
 
       - name: Build and publish
         run: ./gradlew MszProgressIndicator:assembleRelease publishReleasePublicationToMavenRepository
