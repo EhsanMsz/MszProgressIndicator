@@ -2,8 +2,8 @@ import java.io.FileInputStream
 import java.util.Properties
 
 plugins {
-    id("com.android.library")
-    id("kotlin-android")
+    id(libs.plugins.androidLibrary.get().pluginId)
+    id(libs.plugins.kotlinAndroid.get().pluginId)
     id("kotlin-parcelize")
     id("maven-publish")
     id("signing")
