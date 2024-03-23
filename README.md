@@ -115,7 +115,7 @@ limitations under the License.
 
 [publish-badge]: https://img.shields.io/github/actions/workflow/status/ehsanmsz/mszprogressindicator/publish.yaml
 
-[maven-central]: https://search.maven.org/artifact/com.ehsanmsz/msz-progress-indicator/0.2.0/aar
+[maven-central]: https://search.maven.org/artifact/com.ehsanmsz/msz-progress-indicator/0.8.0/aar
 
 [license]: https://github.com/EhsanMsz/MszProgressIndicator/blob/master/LICENSE
 
