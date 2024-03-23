@@ -17,7 +17,7 @@
 package com.ehsanmsz.mszprogressindicator.progressindicator
 
 import androidx.compose.animation.core.rememberInfiniteTransition
-import androidx.compose.material.MaterialTheme
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
@@ -47,7 +47,7 @@ private const val DefaultMinAlpha = .4f
 @Composable
 fun BallSpinFadeLoaderProgressIndicator(
     modifier: Modifier = Modifier,
-    color: Color = MaterialTheme.colors.primary,
+    color: Color = MaterialTheme.colorScheme.primary,
     animationDuration: Int = DefaultAnimationDuration,
     maxBallDiameter: Dp = DefaultMaxBallDiameter,
     minBallDiameter: Dp = DefaultMinBallDiameter,

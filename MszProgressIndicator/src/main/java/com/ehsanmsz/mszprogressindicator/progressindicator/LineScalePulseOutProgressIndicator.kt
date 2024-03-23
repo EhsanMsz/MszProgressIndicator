@@ -17,7 +17,7 @@
 package com.ehsanmsz.mszprogressindicator.progressindicator
 
 import androidx.compose.animation.core.rememberInfiniteTransition
-import androidx.compose.material.MaterialTheme
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
@@ -46,7 +46,7 @@ private val DefaultLineCornerRadius = 3.dp
 @Composable
 fun LineScalePulseOutProgressIndicator(
     modifier: Modifier = Modifier,
-    color: Color = MaterialTheme.colors.primary,
+    color: Color = MaterialTheme.colorScheme.primary,
     animationDuration: Int = DefaultAnimationDuration,
     lineCount: Int = DefaultLineCount,
     lineHeightMax: Dp = DefaultLineHeightMax,

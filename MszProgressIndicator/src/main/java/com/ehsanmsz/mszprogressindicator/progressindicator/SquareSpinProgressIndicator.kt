@@ -16,7 +16,7 @@
 
 package com.ehsanmsz.mszprogressindicator.progressindicator
 
-import androidx.compose.material.MaterialTheme
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
@@ -38,7 +38,7 @@ private val DefaultHeight = 40.dp
 @Composable
 fun SquareSpinProgressIndicator(
     modifier: Modifier = Modifier,
-    color: Color = MaterialTheme.colors.primary,
+    color: Color = MaterialTheme.colorScheme.primary,
     animationDelay: Int = DefaultAnimationDelay,
     width: Dp = DefaultWidth,
     height: Dp = DefaultHeight,
